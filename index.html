@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>todoList</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<script type="text/javascript" src="js/layout.js" ></script>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<!--
+			待办事项网页需求：
+			主要适用移动端，PC端也能使用   具有待完成和已完成以及输入框
+			能够对待完成和已完成进行一系列操作（增加、删除、勾选）
+		-->
+		<div class="main">
+			<div class="nav">
+				<div id="logo">ToDoList</div>
+				<input type="text" id="thing" placeholder="请输入事项" />
+			</div>
+			<div class="doing todo">
+				<h3>
+					<span id="title">待完成</span>
+					<span id="number"></span>
+				</h3>
+				<div class="list"></div>
+			</div>
+			<div class="done todo">
+				<h3>
+					<span id="title">已完成</span>
+					<span id="number"></span>
+				</h3>
+				<div class="list"></div>
+			</div>
+		</div>
+	<script type="text/javascript" src="js/todo.js" ></script>
+	</body>
+</html>

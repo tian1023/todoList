@@ -1,0 +1,92 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background: #efefef;
+	font-size: 16px;
+}
+.main {
+	width: 3.75rem;
+}
+.nav {
+	width: 3.75rem;
+	height: 0.5rem;
+	background: #000;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav #logo {
+	width: 1.2rem;
+	height: 0.5rem;
+	text-align: center;
+	line-height: 0.5rem;
+	font-size: 0.2rem;
+	font-weight: 600;
+}
+.nav input {
+	width: 2.2rem;
+	height: 0.25rem;
+	padding: 0 0.05rem;
+	margin-right: 0.15rem;
+	border-radius: 0.05rem;
+	border: none;
+	outline: none;
+}
+.todo h3 {
+	height: 0.6rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 0.15rem;
+}
+.todo .list {
+	padding: 0 0.15rem;
+}
+.todo .Item {
+	display: flex;
+	height: 0.32rem;
+	align-items: center;
+	/*justify-content: space-between;*/
+	background: #fff;
+	border-radius: 0.08rem;
+	border-left: 5px solid cornflowerblue;
+	margin-bottom: 0.05rem;
+}
+.todo .Item>input {
+	width: 0.2rem;
+	height: 0.2rem;
+	margin: 0 0.1rem;
+}
+.todo .Item>.content {
+	width: 2.65rem;
+}
+.todo .Item>.del {
+	background: orange;
+	width: 0.5rem;
+	height: 0.25rem;
+	line-height: 0.25rem;
+	text-align: center;
+	border-radius: 0.1rem;
+	margin: 0 0.05rem;
+	font-weight: 600;
+	font-size: 0.15rem;
+	color: #fff;
+}
+.todo .Item>.del:hover {
+	cursor: pointer;
+}
+.done .Item {
+	opacity: 0.4;
+	-webkit-filter: grayscale(1);
+}
+
+.pc {
+	font-size: 200px !important;
+}
+.pc .main {
+	margin: 0 auto;
+}
